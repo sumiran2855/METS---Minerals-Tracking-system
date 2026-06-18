@@ -755,7 +755,7 @@ export default function ReportsPage() {
       {/* Footer */}
       <div className="text-center pb-4">
         <p className="text-xs text-slate-400">
-          Data shown is for prototype demonstration purposes only · Reference: MMMD/GRZ/ICT/CS/002/2026
+          Data shown is for prototype demonstration purposes only · Reference: MMMD/GRZ/IRM/IT/200/2026
         </p>
       </div>
     </div>

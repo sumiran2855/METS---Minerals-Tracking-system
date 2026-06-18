@@ -337,7 +337,7 @@ export default function LicencesPage() {
             </h2>
             <p className="text-white/50 text-sm mt-1">
               Manage and monitor all mineral exploration licences across{" "}
-              <span className="text-white/80 font-medium">the Republic of Zambia</span>
+              <span className="text-white/80 font-medium">all Country</span>
             </p>
           </div>
           <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap shrink-0">
@@ -670,7 +670,7 @@ export default function LicencesPage() {
       {/* Footer */}
       <div className="text-center pb-4">
         <p className="text-xs text-slate-400">
-          Data shown is for prototype demonstration purposes only · Reference: MMMD/GRZ/ICT/CS/002/2026
+          Data shown is for prototype demonstration purposes only · Reference: MMMD/GRZ/IRM/IT/200/2026
         </p>
       </div>
 

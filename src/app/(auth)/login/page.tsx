@@ -18,7 +18,8 @@ const BG_IMAGES = [
 ];
 
 const MARQUEE_TEXT =
-  "  ·  Official Government of the Republic of Zambia Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/ICT/CS/002/2026  ";
+  "  ·  Official Government of All Country Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/IRM/IT/200/2026  "; 
+const DISCLAIMER_TEXT = "Disclaimer: This website is a prototype/demo version developed for review and evaluation purposes only.";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -82,7 +83,7 @@ export default function LoginPage() {
   const features = [
     { icon: FileCheck, label: "Licence Management", desc: "Track and manage exploration licences end-to-end" },
     { icon: BarChart3, label: "Compliance Monitoring", desc: "Real-time dashboards for regulatory oversight" },
-    { icon: MapPin, label: "Geospatial Mapping", desc: "Integrated mapping of Zambia's mineral blocks" },
+    { icon: MapPin, label: "Geospatial Mapping", desc: "Integrated mapping of All Country's mineral blocks" },
   ];
 
   return (
@@ -101,15 +102,22 @@ export default function LoginPage() {
             <ShieldCheck className="w-5 h-5 sm:w-7 sm:h-7 text-[#1a3a5c]" />
           </div>
           <div className="min-w-0">
-            <p className="text-[#f5a623] text-[10px] sm:text-xs font-medium tracking-widest uppercase">Republic of Zambia</p>
+            <p className="text-[#f5a623] text-[10px] sm:text-xs font-medium tracking-widest uppercase">All Country</p>
             <h1 className="text-white text-sm sm:text-lg font-bold leading-tight">Ministry of Mines and Minerals Development</h1>
             <p className="text-slate-300 text-[10px] sm:text-xs tracking-wide hidden sm:block">Mineral Exploration Tracking System (METS)</p>
           </div>
           <div className="ml-auto hidden md:block">
-            <Badge className="bg-[#f5a623] text-[#1a3a5c] font-semibold hover:bg-[#f5a623]">MMMD/GRZ/ICT/CS/002/2026</Badge>
+            <Badge className="bg-[#f5a623] text-[#1a3a5c] font-semibold hover:bg-[#f5a623]">MMMD/GRZ/IRM/IT/200/2026</Badge>
           </div>
         </div>
       </header>
+
+      {/* Prototype Disclaimer Banner */}
+      <div className="bg-amber-50 border-b border-amber-200 px-4 sm:px-6 py-2.5">
+        <p className="text-center text-xs sm:text-sm text-amber-900 font-medium">
+          ⚠️ Disclaimer: This website is a prototype/demo version developed for review and evaluation purposes only.
+        </p>
+      </div>
 
       {/* Main Content */}
       <main className="relative flex-1">
@@ -136,10 +144,10 @@ export default function LoginPage() {
                   Mineral Exploration Tracking System
                 </p>
                 <h2 className="text-2xl lg:text-3xl font-bold leading-tight">
-                  Secure digital access for Zambia&apos;s mining governance.
+                  Secure digital access for All Country&apos;s mining governance.
                 </h2>
                 <p className="text-slate-200 text-sm mt-3 leading-relaxed">
-                  Sign in to manage licences, monitor compliance, and support transparent mineral sector operations across the Republic of Zambia.
+                  Sign in to manage licences, monitor compliance, and support transparent mineral sector operations across All Country.
                 </p>
               </div>
 
@@ -163,7 +171,7 @@ export default function LoginPage() {
 
               <div className="flex items-center gap-2">
                 <div className="h-[3px] w-12 rounded-full bg-[#f5a623]" />
-                <p className="text-white/40 text-[10px] tracking-widest uppercase">Republic of Zambia</p>
+                <p className="text-white/40 text-[10px] tracking-widest uppercase">All Country</p>
               </div>
             </div>
 
@@ -286,7 +294,7 @@ export default function LoginPage() {
       <footer className="border-t border-slate-200 bg-white py-4 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
           <p className="text-xs text-slate-400">
-            © 2026 Ministry of Mines and Minerals Development, Republic of Zambia. All rights reserved.
+            © 2026 Ministry of Mines and Minerals Development, All Country. All rights reserved.
           </p>
           <p className="text-xs text-slate-400">
             For technical support, contact:{" "}

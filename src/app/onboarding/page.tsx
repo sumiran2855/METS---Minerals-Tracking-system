@@ -42,7 +42,7 @@ const BG_IMAGES = [
 ];
 
 const MARQUEE_TEXT =
-  "  ·  Official Government of the Republic of Zambia Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/ICT/CS/002/2026  ";
+  "  ·  Official Government of all Country Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/IRM/IT/200/2026  ";
 
 const STATS = [
   { label: "Active Licences", value: "147", icon: FileText, color: "#f5a623" },
@@ -69,7 +69,7 @@ const FEATURES = [
   {
     icon: MapPin,
     title: "Geospatial Mapping",
-    desc: "Interactive maps of Zambia's mineral licence blocks. Visualise exploration boundaries, overlap checks, and spatial distribution across all ten provinces.",
+    desc: "Interactive maps of all Country's mineral licence blocks. Visualise exploration boundaries, overlap checks, and spatial distribution across all ten provinces.",
     accent: "#0ea5e9",
     tag: "Spatial",
   },
@@ -159,7 +159,7 @@ const ROLES = [
   {
     icon: Globe,
     title: "General Public",
-    desc: "Browse publicly available mineral exploration licence information and spatial block maps for Zambia.",
+    desc: "Browse publicly available mineral exploration licence information and spatial block maps for all Country.",
     badge: "Public",
     color: "#64748b",
   },
@@ -267,7 +267,7 @@ export default function OnboardingPage() {
           </div>
           <div className="min-w-0 flex-1">
             <p className="text-[#f5a623] text-[10px] sm:text-xs font-medium tracking-widest uppercase leading-none">
-              Republic of Zambia
+              All Country
             </p>
             <h1 className="text-white text-sm sm:text-base font-bold leading-tight">
               Ministry of Mines and Minerals Development
@@ -278,7 +278,7 @@ export default function OnboardingPage() {
           </div>
           <div className="ml-auto flex items-center gap-2 sm:gap-3">
             <Badge className="hidden md:flex bg-[#f5a623]/20 text-[#f5d08b] border border-[#f5a623]/40 font-medium hover:bg-[#f5a623]/20">
-              MMMD/GRZ/ICT/CS/002/2026
+              MMMD/GRZ/IRM/IT/200/2026
             </Badge>
             <Link href="/login">
               <button className="flex items-center gap-1.5 text-xs font-semibold text-[#1a3a5c] bg-[#f5a623] hover:bg-[#f0a020] px-3 py-1.5 rounded-lg transition-colors">
@@ -289,6 +289,13 @@ export default function OnboardingPage() {
           </div>
         </div>
       </header>
+
+      {/* Prototype Disclaimer Banner */}
+      <div className="bg-amber-50 border-b border-amber-200 px-4 sm:px-6 py-2.5">
+        <p className="text-center text-xs sm:text-sm text-amber-900 font-medium">
+          ⚠️ Disclaimer: This website is a prototype/demo version developed for review and evaluation purposes only.
+        </p>
+      </div>
 
       {/* ── Hero Section ─────────────────────────────────────────────────── */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">
@@ -322,7 +329,7 @@ export default function OnboardingPage() {
             className="animate-fadein-up text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-4xl"
             style={{ animationDelay: "0.1s" }}
           >
-            Zambia&apos;s Premier
+            Demo Country&apos;s Premier
             <span className="block text-[#f5a623] mt-1">Mineral Exploration</span>
             Management Platform
           </h2>
@@ -334,7 +341,7 @@ export default function OnboardingPage() {
           >
             METS brings the Ministry of Mines and Minerals Development, exploration companies, environmental
             inspectors, and the public together on a single secure digital platform — streamlining
-            licence management and driving transparent governance of Zambia&apos;s mineral sector.
+                licence management and driving transparent governance of All Country&apos;s mineral sector.
           </p>
 
           {/* CTA Buttons */}
@@ -416,17 +423,17 @@ export default function OnboardingPage() {
                 About METS
               </span>
               <h3 className="text-3xl sm:text-4xl font-bold text-[#1a3a5c] leading-tight mb-5">
-                Modernising Zambia&apos;s<br />Mineral Governance
+                Modernising All Country&apos;s<br />Mineral Governance
               </h3>
               <p className="text-slate-600 text-base leading-relaxed mb-4">
                 The <strong className="text-[#1a3a5c]">Mineral Exploration Tracking System (METS)</strong> is an
                 official digital platform developed by the Ministry of Mines and Minerals Development under the
-                Republic of Zambia. It replaces fragmented paper-based processes with a unified, secure, and
+                Demo Country. It replaces fragmented paper-based processes with a unified, secure, and
                 transparent digital workflow.
               </p>
               <p className="text-slate-600 text-base leading-relaxed mb-6">
                 METS enables end-to-end management of exploration licences, compliance monitoring, geological data
-                management, and environmental oversight — ensuring Zambia&apos;s mineral sector operates with
+                management, and environmental oversight — ensuring All Country’s mineral sector operates with
                 the highest standards of governance and accountability.
               </p>
               <div className="space-y-2.5">
@@ -516,7 +523,7 @@ export default function OnboardingPage() {
 
                 {/* Card footer */}
                 <div className="px-6 py-3 flex items-center justify-between">
-                  <span className="text-[10px]" style={{ color: "rgba(255,255,255,0.35)" }}>MMMD/GRZ/ICT/CS/002/2026</span>
+                  <span className="text-[10px]" style={{ color: "rgba(255,255,255,0.35)" }}>MMMD/GRZ/IRM/IT/200/2026</span>
                   <div className="flex items-center gap-1.5">
                     <div className="w-1.5 h-1.5 rounded-full bg-[#f5a623]" />
                     <span className="text-[#f5a623] text-[10px] font-semibold">v1.0.0</span>
@@ -647,7 +654,7 @@ export default function OnboardingPage() {
               Built for every stakeholder
             </h3>
             <p className="text-slate-500 text-base mt-3 max-w-xl mx-auto leading-relaxed">
-              METS provides tailored workspaces for all participants in Zambia&apos;s mineral sector.
+              METS provides tailored workspaces for all participants in All Country&apos;s mineral sector.
             </p>
           </div>
 
@@ -739,7 +746,7 @@ export default function OnboardingPage() {
           </h3>
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-8 max-w-xl mx-auto">
             Join METS today and experience transparent, efficient, and accountable mineral sector management
-            across the Republic of Zambia.
+            across All Country.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -784,7 +791,7 @@ export default function OnboardingPage() {
               {
                 icon: "📍",
                 title: "Physical Address",
-                lines: ["Ministry of Mines and Minerals Development", "Lusaka Square, Independence Avenue", "Lusaka, Republic of Zambia"],
+                lines: ["Ministry of Mines and Minerals Development", "All Country", "Lusaka, All Country"],
               },
               {
                 icon: "📞",
@@ -899,11 +906,11 @@ export default function OnboardingPage() {
               </div>
               <div>
                 <p className="text-white text-xs font-semibold leading-none">Ministry of Mines and Minerals Development</p>
-                <p className="text-slate-500 text-[10px] mt-0.5">Republic of Zambia · METS © 2026</p>
+                <p className="text-slate-500 text-[10px] mt-0.5">All Country · METS © 2026</p>
               </div>
             </div>
             <div className="flex items-center gap-4 text-[11px]">
-              <span>MMMD/GRZ/ICT/CS/002/2026</span>
+              <span>MMMD/GRZ/IRM/IT/200/2026</span>
               <span className="text-white/10">·</span>
               <span>All rights reserved</span>
               <span className="text-white/10">·</span>

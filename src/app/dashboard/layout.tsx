@@ -29,7 +29,7 @@ const navItems = [
 ];
 
 const MARQUEE_TEXT =
-  "  ·  Official Government of the Republic of Zambia Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/ICT/CS/002/2026  ";
+  "  ·  Official Government of All Country Portal — Authorised Users Only  ·  Ministry of Mines and Minerals Development  ·  Mineral Exploration Tracking System (METS)  ·  Secure & Monitored Access  ·  MMMD/GRZ/IRM/IT/200/2026  ";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -78,7 +78,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             </div>
             <div className="hidden sm:block">
               <p className="text-[#f5a623] text-[10px] font-medium tracking-widest uppercase">
-                Republic of Zambia
+                All Country
               </p>
               <h1 className="text-white text-sm font-bold leading-tight">
                 Ministry of Mines and Minerals Development — METS
@@ -119,6 +119,13 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           </div>
         </div>
       </header>
+
+      {/* Prototype Disclaimer Banner */}
+      <div className="bg-amber-50 border-b border-amber-200 px-4 sm:px-6 py-2.5 shrink-0">
+        <p className="text-center text-xs sm:text-sm text-amber-900 font-medium">
+          ⚠️ Disclaimer: This website is a prototype/demo version developed for review and evaluation purposes only.
+        </p>
+      </div>
 
       <div className="flex flex-1 min-h-0 overflow-hidden">
 
@@ -173,7 +180,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <div className="px-3 py-3 border-t border-slate-100 space-y-2 shrink-0">
             <div className="px-3 py-2 rounded-lg bg-slate-50 border border-slate-100">
               <p className="text-[10px] text-slate-400 uppercase tracking-[0.12em] font-bold">Reference</p>
-              <p className="text-[11px] text-slate-600 font-mono mt-0.5 truncate">MMMD/GRZ/ICT/CS/002/2026</p>
+              <p className="text-[11px] text-slate-600 font-mono mt-0.5 truncate">MMMD/GRZ/IRM/IT/200/2026</p>
             </div>
           </div>
         </aside>

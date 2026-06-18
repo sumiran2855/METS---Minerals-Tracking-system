@@ -115,8 +115,8 @@ const topOperators = [
   { name: "First Quantum Minerals", licences: 14, compliance: 96, mineral: "Copper" },
   { name: "Konkola Copper Mines", licences: 11, compliance: 88, mineral: "Copper" },
   { name: "Cobalt 27 Capital", licences: 8, compliance: 92, mineral: "Cobalt" },
-  { name: "Ivanhoe Mines Zambia", licences: 7, compliance: 97, mineral: "Copper/Cobalt" },
-  { name: "Gryphon Gold Zambia", licences: 5, compliance: 84, mineral: "Gold" },
+  { name: "Ivanhoe Mines Demo Country", licences: 7, compliance: 97, mineral: "Copper/Cobalt" },
+  { name: "Gryphon Gold Demo Country", licences: 5, compliance: 84, mineral: "Gold" },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -298,7 +298,7 @@ export default function ExecutiveDashboard() {
             <p className="text-white/50 text-sm mt-1">
               Welcome back,{" "}
               <span className="text-white/80 font-medium">{user?.label ?? "Executive"}</span>
-              {" "}— Zambia mineral exploration sector overview
+              {" "}— Demo Country mineral exploration sector overview
             </p>
           </div>
           <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap shrink-0">
@@ -751,7 +751,7 @@ export default function ExecutiveDashboard() {
       {/* ── Footer ── */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 pt-2 pb-4 border-t border-slate-200">
         <p className="text-xs text-slate-400">
-          Data shown is for prototype demonstration purposes only · Ref: MMMD/GRZ/ICT/CS/002/2026
+          Data shown is for prototype demonstration purposes only · Ref: MMMD/GRZ/IRM/IT/200/2026
         </p>
         <p className="text-xs text-slate-400 shrink-0">METS v2.1 · Ministry of Mines and Minerals Development, GRZ</p>
       </div>

@@ -116,7 +116,7 @@ const grievances = [
   {
     id: "GRV/2026/006",
     subject: "Incomplete environmental impact report",
-    complainant: "Zambia Environmental Agency",
+    complainant: "Environmental Agency",
     company: "Southern Minerals Inc",
     province: "Southern",
     district: "Choma",
@@ -250,7 +250,7 @@ export default function GrievancePage() {
             </h2>
             <p className="text-white/50 text-sm mt-1">
               Track complaints, assign reviews, and monitor resolution timelines across{" "}
-              <span className="text-white/80 font-medium">the Republic of Zambia</span>
+              <span className="text-white/80 font-medium">all Country</span>
             </p>
           </div>
           <div className="flex items-center gap-2 shrink-0">
