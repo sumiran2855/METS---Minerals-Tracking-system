@@ -329,7 +329,7 @@ export default function OnboardingPage() {
             className="animate-fadein-up text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-4xl"
             style={{ animationDelay: "0.1s" }}
           >
-            Demo Country&apos;s Premier
+            All Country&apos;s Premier
             <span className="block text-[#f5a623] mt-1">Mineral Exploration</span>
             Management Platform
           </h2>
